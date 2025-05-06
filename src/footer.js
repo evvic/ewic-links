@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <a
-        href="https://github.com/evvic/ewic-links"
+        href="https://github.com/evvic/link-tree-template"
         target="_blank"
         rel="noopener noreferrer"
         className="footer-link"

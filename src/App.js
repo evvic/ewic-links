@@ -25,17 +25,17 @@ function App() {
 
         {/* Social Media Links */}
         <div className="social-links">
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/@ewic.mp4" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faYoutube} className="social-icon" />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/ewic.mp4/#" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} className="social-icon" />
           </a>
         </div>
 
         {/* Affiliate Link */}
         <div className="links">
-          <a href="https://amazon.com" target="_blank" rel="noopener noreferrer" className="link">
+          <a href="https://amazon.com/shop/ewic.mp4" target="_blank" rel="noopener noreferrer" className="link">
             <FontAwesomeIcon icon={faAmazon} className="social-icon" />
             Storefront: Tech gear recommended by my coworker!
           </a>
