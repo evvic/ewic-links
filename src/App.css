@@ -27,6 +27,7 @@ body {
 
 .creator-name {
   font-family: 'Outfit', Arial, sans-serif; /* Use the custom font */
+  margin-bottom: 5px;
 }
 
 .container {
