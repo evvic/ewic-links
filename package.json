@@ -1,6 +1,6 @@
 {
-  "name": "link-tree-template",
-  "homepage": "https://ewic-stream.servehttp.com/",
+  "name": "ewic-links",
+  "homepage": "https://links.ewic.dev/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

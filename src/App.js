@@ -15,7 +15,7 @@ function App() {
         {/* Profile Section */}
         <div className="profile">
           <img
-            src="https://i.seadn.io/s/raw/files/b5f14b666829791d1ec5e3c8aac8f584.png?auto=format&dpr=1&w=1400&fr=1"
+            src="https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/364982426_669023181747586_6668186056420918104_n.jpg?stp=dst-jpg_s320x320_tt6&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QGEOaVPrv2S1V1mTzaSBzgzFsXWKNyoan_o-qzjb8AHIRC4KM8JJ4s4KTgg6ejxQJ-ZbXNkRpoWs2IKmtDUDo5j&_nc_ohc=5v_-AQd3Rn0Q7kNvwGj9OCc&_nc_gid=-8B4ihG2tXcaIaHSTu4hAQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfIyRM5ABfqoeyp90zZBIYq-VGLliS8prhVcAMhu2wUKFQ&oe=681F7F0C&_nc_sid=8b3546"
             alt="Profile"
             className="profile-picture"
           />
