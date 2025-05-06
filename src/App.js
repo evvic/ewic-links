@@ -20,7 +20,7 @@ function App() {
             className="profile-picture"
           />
           <h1 className="name creator-name">ewic</h1>
-          <p className="description">Software and fitness 🔒</p>
+          <p className="description">Software and fitness 👨‍💻🔒</p>
         </div>
 
         {/* Social Media Links */}
