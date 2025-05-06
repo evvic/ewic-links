@@ -135,7 +135,7 @@ body, .container, .profile, .description, .name, .link {
 
 .footer-link:hover {
   color: #c381f5; /* Lavender color on hover */
-}
+} 
 
 .background {
   position: fixed; /* Ensure it stays fixed in the background */
@@ -151,7 +151,7 @@ body, .container, .profile, .description, .name, .link {
 .svg-block {
   position: absolute;
   transform-origin: center;
-  background: linear-gradient(30deg, #000000, #000000, #420071, #6c48ba, #c381f5); /* Light pink to red to black */
+  background: linear-gradient(30deg, #000000, #000000, #713304, #d66a0b, #ffae5c); /* Light pink to red to black */
   background-size: 100% 100%; /* Ensure gradient spans the entire rectangle */
   opacity: 1;
   animation: moveBlocks 20s ease-in-out infinite;
