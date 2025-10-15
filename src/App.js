@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faYoutube, faInstagram, faAmazon } from '@fortawesome/free-brands-svg-icons'; // faApple is no longer needed here
+import { faYoutube, faInstagram, faAmazon, faAppStoreIos } from '@fortawesome/free-brands-svg-icons';
 import Background from './background'; // Import the Background component
 import Footer from './footer'; // Import the Footer component
 
@@ -37,11 +37,11 @@ function App() {
         <div className="links">
           <a href="https://amazon.com/shop/ewic.mp4" target="_blank" rel="noopener noreferrer" className="link">
             <FontAwesomeIcon icon={faAmazon} className="social-icon" />
-            Storefront: Tech gear recommended by my coworker!
+            Storefront - dev
           </a>
         </div>
 
-        {/* Affiliate Link - Leetly App Store (with custom logo) */}
+        {/* Affiliate Link - Leetly App Store (with custom logo and badge) */}
         <div className="links">
           <a 
             href="https://apps.apple.com/us/app/leetly-land-a-swe-job/id6752914609" 
@@ -49,9 +49,12 @@ function App() {
             rel="noopener noreferrer" 
             className="link"
           >
-            {/* Custom Leetly Logo Image */}
+            {/* App Store Badge/Icon */}
+            <FontAwesomeIcon icon={faAppStoreIos} className="social-icon" />
+            Leetly: Land a SWE Job
+            
+            {/* Leetly Logo Image */}
             <img src="/leetly.jpg" alt="Leetly Logo" className="leetly-logo-icon" />
-            Leetly: Land a SWE Job (App Store)
           </a>
         </div>
       </div>

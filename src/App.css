@@ -68,6 +68,8 @@ body, .container, .profile, .description, .name, .link {
   font-size: 24px; /* Adjust size as needed */
   color: white; /* Fully white by default */
   transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  margin-right: 10px;
+  flex-shrink: 0;
 }
 
 .social-icon:hover {
@@ -120,7 +122,7 @@ body, .container, .profile, .description, .name, .link {
   height: 30px;
   border-radius: 50%;
   object-fit: cover; /* Ensures the image covers the circular area without distortion */
-  margin-right: 10px; /* Spacing between the logo and the text */
+  margin-left: 10px; /* Spacing between the logo and the text */
   vertical-align: middle; /* Aligns the image nicely with the text */
 }
 
