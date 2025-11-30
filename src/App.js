@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faYoutube, faInstagram, faAmazon } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube, faInstagram, faAmazon, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import Background from './background'; // Import the Background component
 import Footer from './footer'; // Import the Footer component
 
@@ -30,6 +30,9 @@ function App() {
           </a>
           <a href="https://www.instagram.com/ewic.mp4/#" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} className="social-icon" />
+          </a>
+          <a href="https://www.tiktok.com/@ewic.mp4/#" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faTiktok} className="social-icon" />
           </a>
         </div>
 
